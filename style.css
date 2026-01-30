@@ -1,0 +1,211 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     color: #111;
+     line-height: 1.6;
+     background: #efeded;
+
+ }
+
+ a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ /* Header */
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 10%;
+     background: #f9f9f9;
+ }
+
+ header h2 {
+     font-weight: 700;
+ }
+
+ nav ul {
+     display: flex;
+     gap: 20px;
+ }
+
+ nav ul li a {
+     font-weight: 500;
+     transition: 0.3s;
+ }
+
+ nav ul li a:hover {
+     color: #0077b6;
+ }
+
+ /* Hero */
+ .hero {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 60px 10%;
+     flex-wrap: wrap;
+ }
+
+ .hero-text {
+     max-width: 500px;
+ }
+
+ .hero-text h1 {
+     font-size: 2rem;
+     font-weight: 700;
+     color: #0077b6;
+ }
+
+ .hero-text p {
+     margin: 15px 0;
+ }
+
+ .btn {
+     background: #0077b6;
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 25px;
+     font-weight: 600;
+     display: inline-block;
+ }
+
+ .hero img {
+     max-width: 300px;
+     border-radius: 15px;
+ }
+
+ /* Skills */
+ .skills {
+     padding: 60px 10%;
+     text-align: center;
+ }
+
+ .skills-list {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     flex-wrap: wrap;
+     margin-top: 20px;
+ }
+
+ .skill {
+     padding: 15px 25px;
+     border: 1px solid #ddd;
+     border-radius: 10px;
+     font-weight: 600;
+     background: #f1f1f1;
+ }
+
+ /* Experience */
+ .experience {
+     padding: 60px 10%;
+     background: #f9f9f9;
+ }
+
+ .experience h2 {
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+ .experience ul {
+     max-width: 700px;
+     margin: auto;
+     line-height: 2;
+ }
+
+ .experience ul li::before {
+     content: "✔ ";
+     color: #0077b6;
+     font-weight: bold;
+ }
+
+ /* Contact */
+ .contact {
+     background: #222;
+     color: #fff;
+     padding: 60px 10%;
+     text-align: center;
+ }
+
+ .contact-form {
+     max-width: 500px;
+     margin: auto;
+     margin-top: 30px;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+     width: 100%;
+     margin-bottom: 15px;
+     padding: 12px;
+     border: none;
+     border-bottom: 2px solid #444;
+     background: transparent;
+     color: #fff;
+     font-size: 1rem;
+ }
+
+ .contact-form button {
+     background: #0077b6;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 25px;
+     font-weight: 600;
+     cursor: pointer;
+ }
+
+ /* Footer */
+ footer {
+     background: #0077b6;
+     color: #fff;
+     padding: 40px 10%;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ footer .footer-col {
+     flex: 1;
+     margin: 15px;
+     min-width: 200px;
+ }
+
+ footer h4 {
+     margin-bottom: 15px;
+     font-weight: 600;
+ }
+
+ footer ul li {
+     margin-bottom: 8px;
+     font-size: 0.9rem;
+ }
+
+ footer ul li a {
+     color: #fff;
+     transition: 0.3s;
+ }
+
+ footer ul li a:hover {
+     color: #ffdd00;
+ }
+
+ .footer-bottom {
+     width: 100%;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 0.85rem;
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+     padding-top: 15px;
+ }
